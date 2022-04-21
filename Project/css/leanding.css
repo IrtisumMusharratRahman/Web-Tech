@@ -1,0 +1,50 @@
+body {
+  background-image: url(css_images/sky.jpg);
+}
+
+.conte {
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#grpInfo {
+  display: flex;
+  padding: 50px;
+}
+
+#grpMem {
+}
+
+#grpDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+p {
+  color: #333;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 15px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(4, 43, 4);
+  margin-left: 10px;
+}
+
+.ima {
+  width: 40px;
+  height: 60px;
+}
+
+.nav li:hover {
+  background-color: blue;
+}
