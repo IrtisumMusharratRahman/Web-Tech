@@ -64,7 +64,7 @@ body {
 #border {
   border: 50px solid;
 
-  border-image: url(03a231d958cbdf69256dd4b67674b73b.png) 100 round;
+  border-image: url(css_images/03a231d958cbdf69256dd4b67674b73b.png) 100 round;
 }
 .Text {
   background-color: lightgrey;
