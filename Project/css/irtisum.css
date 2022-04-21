@@ -1,0 +1,127 @@
+body {
+    margin: 50px;
+    padding: 50px;
+    background-image: url("background-green.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 2000px 500px;
+    background-color: #ffffff;
+}
+
+.intro-container {
+    width: 800px;
+    height: 450px;
+    background-color: #f7f8f8;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pp {
+    background-position: center;
+}
+
+.contact-container {
+    height: 400px;
+    width: 300px;
+    margin-left: 35px;
+}
+
+.content-Container {
+    margin: 50px;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 35% 35% auto;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+    color: #2baa08;
+}
+
+.aboutme-Container,
+.educational-Container,
+.skill-language-Container,
+.interest-Container,
+.project-Container,
+.experience-refer-Container {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f7f8f8;
+}
+
+table {
+    height: 75%;
+    width: 90%;
+    border-color: #8bf20d;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+dd {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.project-Container>dt {
+    font-weight: bold;
+    color: green;
+}
+
+#project>dt,
+#reference>dt,
+li,
+legend {
+    font-weight: bolder;
+    color: green;
+}
+
+#interest {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-Container {
+    background-color: #f7f8f8;
+    border-radius: 5px;
+    border: 50px;
+    padding: 50px;
+    margin: auto;
+}
+
+#fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+#one,
+#three {
+    flex: 1;
+}
+
+#two {
+    flex: 1.5;
+}
+
+#form>p {
+    clear: left;
+}
+
+#submit {
+    background-color: #2ce22c
+}
