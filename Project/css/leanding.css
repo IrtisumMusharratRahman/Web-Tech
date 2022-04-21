@@ -2,9 +2,6 @@ body {
   background-image: url(css_images/sky.jpg);
 }
 
-.conte {
-}
-
 .centered {
   position: absolute;
   top: 50%;
@@ -15,9 +12,6 @@ body {
 #grpInfo {
   display: flex;
   padding: 50px;
-}
-
-#grpMem {
 }
 
 #grpDesc {
@@ -46,5 +40,5 @@ a {
 }
 
 .nav li:hover {
-  background-color: blue;
+  background-color: rgb(50, 50, 245);
 }
