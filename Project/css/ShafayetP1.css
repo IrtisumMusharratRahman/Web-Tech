@@ -1,0 +1,130 @@
+body {
+  background-image: url(6078ca6c2378523a2334e99d844a4a52.jpg);
+}
+
+.welcome {
+  background-color: beige;
+  padding: 10px 200px 10px 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Wt {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+#Details tr:nth-child(even) {
+  background-color: #4e99fa;
+}
+
+#Details td:nth-child(odd) {
+  background-color: #93968e;
+  font-family: fantasy;
+}
+#Details td,
+#Details th {
+  border: 2px solid rgb(14, 21, 110);
+  padding: 8px;
+}
+
+#Details {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Details tr:hover {
+  background-color: rgba(30, 172, 2, 0.863);
+}
+.me {
+  padding-left: 100px;
+  width: 500px;
+  height: auto;
+}
+.about {
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Gill Sans MT";
+}
+
+.hellow {
+  position: absolute;
+  top: 1000px;
+  right: 200px;
+}
+
+#border {
+  border: 50px solid;
+
+  border-image: url(03a231d958cbdf69256dd4b67674b73b.png) 100 round;
+}
+.Text {
+  background-color: lightgrey;
+  width: auto;
+  border: 10px solid rgba(12, 138, 108, 0.447);
+  padding: 50px;
+  margin: 20px;
+}
+
+.travel {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color: #4e99fa;
+}
+
+.img-container {
+  float: left;
+  width: 32.45%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
